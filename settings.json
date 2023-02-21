@@ -1,0 +1,245 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "editor.fontLigatures": true, 
+    "editor.fontFamily": "'Fira Code iScript', Consolas, 'Courier New', monospace" , 
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": [
+              //following will be in italic (=FlottFlott)
+              "comment",
+              
+              "entity.other.attribute-name", //HTML Attributes
+              "keyword", //import, export, return…
+              "constant", //String, Number, Boolean…, this, super
+              "storage.modifier", //static keyword
+              "storage.type.class.js", //class keyword
+              "constant.numeric.css",
+              "keyword.other.unit.percentage.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "keyword.other.unit.s.css",
+              "storage.type.class.js",
+              "constant.language.nil.ruby",
+              "meta.function.method.with-arguments.ruby",              
+            ],
+            "settings": {             
+              "foreground": "#00f5fde1"            
+            }
+          },
+          {
+            "scope": [
+              "entity.name.type.class.js"
+              
+            ],
+            "settings": {
+              "fontStyle": "italic",
+              "foreground": "#00ffb3"       
+              // "foreground": "#00ff9d"       
+            }
+          },         
+          {
+            "scope": [
+              "constant.numeric.decimal.ts",
+              "punctuation.definition.template-expression.begin.js",
+              "punctuation.definition.template-expression.end.js",
+              "meta.template.expression.js",
+              "string.template.js",
+              "meta.block.js",
+              "meta.arrow.js",
+              "source.js",
+              "constant.language.boolean.false.ts",
+              "entity.name.type.class.ts",
+              "constant.language.boolean.true.ts"                 
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#ff7b00"
+            }
+          },
+          {
+            "scope": [
+              "variable.other.object.ts",
+              "text.html.derivative"
+              
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#ffcfb3"    
+            }
+          },       
+          {
+            "scope": [
+              "constant.language.symbol.ruby",
+              "constant.language.symbol.hashkey.ruby",
+              "constant.language.boolean.ruby",
+              "constant.numeric.ruby",
+              "meta.object-literal.key.ts",
+              "source.ruby",
+              
+              "punctuation.definition.string.end.html",
+              "punctuation.definition.string.begin.html"           
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#fdfdb3"           
+            }
+          },        
+          {
+            "scope": [
+              "support.class.ruby",
+              "entity.name.type.class.ruby",              
+              "source.ruby",
+                           
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#ff3300"               
+            }
+          },
+          {
+            "scope": [
+              "entity.name.type.module.ruby",
+                       
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#00ff22"               
+            }
+          },
+          {
+            "scope": [
+              "text.html.jinja",
+              "text.html.erb",
+              "meta.attribute.unrecognized.[routerLink].html",
+              
+                       
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#f1f1f1"               
+            }
+          },
+          {
+            "scope": [
+              "constant.language.boolean.false.js",
+                       
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#fd2020"               
+            }
+          },
+          {
+            "scope": [
+              "support.class.component.js.jsx",
+                       
+            ],
+            "settings": {
+              "fontStyle": "",
+              "foreground": "#1f80ff"               
+            }
+          },
+          {
+            "scope": [
+              //following will be excluded from italics (VSCode has some defaults for italics)
+              "invalid",
+              "keyword.operator",
+              "constant.numeric.css",
+              "keyword.other.unit.px.css",
+              "constant.numeric.decimal.js",
+              "constant.numeric.json",
+              "storage.type.class.js"
+              // "constant.language.boolean.false.ts",
+              // "constant.language.boolean.true.ts"
+              // "entity.name.type.class.ts",    
+            ],
+            "settings": {
+              "fontStyle": ""
+            }
+          }
+        ]
+      },
+    "workbench.colorTheme": "King-Evans",
+    "workbench.preferredDarkColorTheme": "Solarized Light",
+    "workbench.colorCustomizations": {
+    
+    },
+    "launch": {
+
+      "configurations": [],
+      "compounds": []
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSaveDelay": 1500,
+    "editor.quickSuggestions": {
+      "strings": "on"
+    },
+
+    "emmet.includeLanguages": {
+      "ruby": "html",
+      "erb": "html",
+      "javascript": "javascriptreact"
+    },
+ 
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+      "*html": "html",
+      "*.ejs": "html"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.profiles.windows": {
+
+    
+      "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+        "path": [
+          "${env:windir}\\Sysnative\\cmd.exe",
+          "${env:windir}\\System32\\cmd.exe"
+        ],
+        "args": [],
+        "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+        "source": "Git Bash"
+      }
+    },
+    "explorer.compactFolders": false,
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "terminal.integrated.profiles.linux": {
+      
+      "bash": {
+        "path": "bash",
+        "icon": "terminal-bash"
+      },
+      "zsh": {
+        "path": "zsh"
+      },
+      "fish": {
+        "path": "fish"
+      },
+      "tmux": {
+        "path": "tmux",
+        "icon": "terminal-tmux"
+      },
+      "pwsh": {
+        "path": "pwsh",
+        "icon": "terminal-powershell"
+      }
+    },
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\git-bash.exe"
+}
+
+
+
