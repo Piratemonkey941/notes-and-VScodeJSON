@@ -11,3 +11,7 @@ rvm --default ruby-3.1.3
 NOTE: if turbo rails single page features not working 
 rails turbo:install
 rails turbo:install:redis 
+
+NOTE: to get secret_key_base in wsl 
+rails credentials:edit
+
